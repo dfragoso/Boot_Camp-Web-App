@@ -10,7 +10,10 @@ class App extends Component {
         <Header displaytext="First Component Data"/>
         <header className="App-header">
           <h1 className="App-title">Welcome Tech Stars!</h1>
+          <img src="./ultimate.png" alt="banner" width="1500" height="460">
+          </img>
         </header>
+        
         <p className="App-intro">
           Important Links:
         </p>
