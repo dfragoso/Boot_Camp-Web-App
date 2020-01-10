@@ -2,18 +2,19 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Header from './Header'
+
 class App extends Component {
   render() {
     return (
       <div className="App">
         <Header displaytext="First Component Data"/>
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+          <h1 className="App-title">Welcome Tech Stars!</h1>
         </header>
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+          Important Links:
         </p>
+        <a href="https://sites.google.com/ultimatesoftware.com/devgrow/home">Dev Grow</a>
         
       </div>
 );
